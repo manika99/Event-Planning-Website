@@ -124,7 +124,7 @@ nav button{
     transition: var(--transition);
 }
 .nav__menu a:hover{
-    color: var(--color-bg2);
+    color: var(--color-danger);
 }
 
 
@@ -205,17 +205,17 @@ header{
     background: var(--color-danger);
 }
 .category:nth-child(3) .category__icon{
-    background: var(--color-success);
+    background: var(--color-danger);
 }
 .category:nth-child(4) .category__icon{
-    background: var(--color-warning);
+    background: var(--color-danger);
 }
 .category:nth-child(5) .category__icon{
-    background: var(--color-success);
+    background: var(--color-danger);
 }
 
 .category__icon{
-    background: var(--color-primary);
+    background: var(--color-danger);
     padding: 0.7rem;
     border-radius: 0.9rem;
     color: white;
@@ -241,23 +241,23 @@ header{
     gap: 2rem;
 }
 
-.course{
+.package{
     background: var(--color-bg1);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.course:hover{
+.package:hover{
     background: transparent;
     border-color: var(--color-primary);
 }
 
-.course__info{
+.package__info{
     padding: 2rem;
 }
 
-.course__info p{
+.package__info p{
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
 }
